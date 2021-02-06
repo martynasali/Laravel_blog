@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="557af2d0-e613-4cf8-b63b-4ad5d557a302" name="Default Changelist" comment="" />
+    <list default="true" id="557af2d0-e613-4cf8-b63b-4ad5d557a302" name="Default Changelist" comment="Laravel" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +10,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -133,6 +136,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1o0gu8u1uL7VL4166NksuGYFm9n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -171,11 +175,22 @@
       <workItem from="1612429529922" duration="4097000" />
       <workItem from="1612519186616" duration="443000" />
       <workItem from="1612519686456" duration="6560000" />
-      <workItem from="1612561420862" duration="272000" />
+      <workItem from="1612561420862" duration="731000" />
     </task>
+    <task id="LOCAL−00001" summary="Laravel">
+      <created>1612640225059</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1612640225059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel" />
   </component>
 </project>
