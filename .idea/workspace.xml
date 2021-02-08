@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557af2d0-e613-4cf8-b63b-4ad5d557a302" name="Default Changelist" comment="Laravel">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/errors.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +143,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1o0gu8u1uL7VL4166NksuGYFm9n" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -155,7 +155,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -188,7 +188,8 @@
       <workItem from="1612718615846" duration="3797000" />
       <workItem from="1612729472553" duration="1711000" />
       <workItem from="1612733381783" duration="74000" />
-      <workItem from="1612733514010" duration="1150000" />
+      <workItem from="1612733514010" duration="13889000" />
+      <workItem from="1612797165574" duration="476000" />
     </task>
     <task id="LOCAL−00001" summary="Laravel">
       <created>1612640225059</created>
@@ -202,14 +203,33 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1612640282118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="fixed">
+      <created>1612769203535</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1612769203535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>
