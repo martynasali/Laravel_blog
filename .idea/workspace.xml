@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557af2d0-e613-4cf8-b63b-4ad5d557a302" name="Default Changelist" comment="Laravel">
-      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/_partials/errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/categories.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog_theme/pages/add-post.blade.php" afterDir="false" />
@@ -189,7 +192,7 @@
       <workItem from="1612729472553" duration="1711000" />
       <workItem from="1612733381783" duration="74000" />
       <workItem from="1612733514010" duration="13889000" />
-      <workItem from="1612797165574" duration="476000" />
+      <workItem from="1612797165574" duration="17289000" />
     </task>
     <task id="LOCAL−00001" summary="Laravel">
       <created>1612640225059</created>
@@ -209,7 +212,19 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1612769203535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="pages/add-post/validation">
+      <created>1612821765617</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1612821765617</updated>
+    </task>
+    <task id="LOCAL−00005" summary="pages/add-post/validation">
+      <created>1612821801702</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1612821801702</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Laravel" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="pages/add-post/validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages/add-post/validation" />
   </component>
 </project>

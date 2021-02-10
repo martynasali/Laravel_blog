@@ -16,13 +16,17 @@
                 <h3 class="post-subtitle">
                     {{ substr($post['body'], 0,  70) }}..
                 </h3>
+                <a href="post/{{$post->id}}">skaityti daugiau</a>
+
                 <p class="post-subtitle">
                    category: {{$post['category']}}
                 </p>
             </a>
-            <p class="post-meta">Posted by
-                <a href="#">Start Bootstrap</a>
-                on September 24, 2019</p>
+            <p class="post-meta">Created
+                <a href="#">{{$post->created_at}}</a>
+                <a href="/edit/{{$post->id}}">redaguoti</a>
+                <a href="/delete/{{$post->id}}">šalinti</a>
+                </p>
         </div>
             <hr>
         @endforeach
