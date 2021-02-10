@@ -16,7 +16,7 @@
             <option value="Music">Music</option>
             <option value="Films">Films</option>
             <option value="Sport">Sport</option>
-            <option selected value="{{$post->title}}">Sport</option>
+            <option selected value="{{$post->category}}">Sport</option>
 
         </select>
 

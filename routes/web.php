@@ -22,3 +22,4 @@ Route::get('/delete/{post}', 'BlogController@delete');
 Route::patch('/storeupdate/{post}', 'BlogController@storeUpdate');
 Route::get('/categories','BlogController@categories' );
 Route::post('/addCat','BlogController@addCat' );
+Route::get('/byCategory/{category}', 'BlogController@byCategory');

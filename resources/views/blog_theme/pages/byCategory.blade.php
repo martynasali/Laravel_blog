@@ -1,13 +1,21 @@
+
 @extends('blog_theme/main')
-
 @section('content')
-<div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
+    <div class="row justify-content-center mb-5">
+        <h2>New Post</h2>
+    </div>
+    @include('blog_theme/_partials/errors')
+
+        {{csrf_field()}}
+        {{method_field('PATCH')}}
+
+<h1> labadiena</h1>
 
 
 
-            @foreach($posts as $post)
-            <hr>
+    @foreach($posts as $post)
+        @if($post->category == $category)
+        <hr>
         <div class="post-preview">
             <a href="post.html">
                 <h2 class="post-title">
@@ -26,20 +34,10 @@
                 <a href="#">{{$post->created_at}}</a>
                 <a href="/edit/{{$post->id}}">redaguoti</a>
                 <a href="/delete/{{$post->id}}">šalinti</a>
-                </p>
+            </p>
         </div>
-            <hr>
-        @endforeach
-        <div class="clearfix">
-            {{ $posts->links() }}
-            <a class="btn btn-secondary float-right" href="#">older posts</a>
-        </div>
+        <hr>
+        @endif
+    @endforeach
 
-
-        <!-- Pager -->
-        <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
-    </div>
-</div>
 @endsection

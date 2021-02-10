@@ -14,6 +14,15 @@ class BlogController extends Controller
         $posts = Post::paginate(5);
         return view('blog_theme.pages.home', compact('posts', 'cate'));
     }
+
+    public function byCategory(Post $post, $category)
+    {
+        $posts = Post::paginate(5);
+
+        return view('blog_theme.pages.byCategory', compact('posts', 'category'));
+    }
+
+
     public function categories()
     {
         return view('blog_theme.pages.categories');
