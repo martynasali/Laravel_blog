@@ -12,13 +12,14 @@
             <input name="title" type="text" placeholder="Name.." value="{{$post->title}}" class="form-control" aria-label="Text input with dropdown button" >
             <div class="input-group-append"></div>
         </div>
-        <select name="category" class="mt-3 form-control form-control-lg">
-            <option value="Music">Music</option>
-            <option value="Films">Films</option>
-            <option value="Sport">Sport</option>
-            <option selected value="{{$post->category}}">Sport</option>
 
+
+        <select name="category" class="mt-3 form-control form-control-lg">
+            @foreach($cate as $catt)
+                <option value={{$catt->catName}}>{{$catt->catName}}</option>
+            @endforeach
         </select>
+
 
 
 

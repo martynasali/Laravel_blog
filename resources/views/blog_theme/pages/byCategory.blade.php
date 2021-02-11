@@ -2,14 +2,14 @@
 @extends('blog_theme/main')
 @section('content')
     <div class="row justify-content-center mb-5">
-        <h2>New Post</h2>
+
     </div>
     @include('blog_theme/_partials/errors')
 
         {{csrf_field()}}
         {{method_field('PATCH')}}
 
-<h1> labadiena</h1>
+<h1> {{$category}}</h1>
 
 
 
@@ -39,5 +39,6 @@
         <hr>
         @endif
     @endforeach
+
 
 @endsection

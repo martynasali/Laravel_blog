@@ -30,12 +30,13 @@
         </div>
             <hr>
         @endforeach
+
+
+                {{ $posts->links() }}
         <div class="clearfix">
-            {{ $posts->links() }}
+
             <a class="btn btn-secondary float-right" href="#">older posts</a>
         </div>
-
-
         <!-- Pager -->
         <div class="clearfix">
             <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>

@@ -17,7 +17,7 @@ class BlogController extends Controller
 
     public function byCategory(Post $post, $category)
     {
-        $posts = Post::paginate(5);
+        $posts = Post::all();
 
         return view('blog_theme.pages.byCategory', compact('posts', 'category'));
     }
@@ -71,8 +71,8 @@ class BlogController extends Controller
     }
 
     public function edit(Post $post){
-
-        return view('blog_theme.pages.edit', compact('post'));
+        $cate = Category::all();
+        return view('blog_theme.pages.edit', compact('post', 'cate'));
     }
     public function  storeUpdate(Request $request, Post $post)
     {
