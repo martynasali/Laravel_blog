@@ -26,7 +26,7 @@
         <div class="mt-4 form-group">
             <textarea  name="body" class="form-control" id="content" rows="5">{{$post->body}}</textarea>
         </div>
-
+        <div><img src="{{asset($post->img)}}"></div>
         <div class="form-group">
             <input name="img" type="file"  class="form-control" id="upload">
         </div>

@@ -23,3 +23,7 @@ Route::patch('/storeupdate/{post}', 'BlogController@storeUpdate');
 Route::get('/categories','BlogController@categories' );
 Route::post('/addCat','BlogController@addCat' );
 Route::get('/byCategory/{category}', 'BlogController@byCategory');
+
+Auth::routes();
+
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');

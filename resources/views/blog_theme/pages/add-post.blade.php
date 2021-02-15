@@ -5,7 +5,7 @@
         <h2>New Post</h2>
     </div>
     @include('blog_theme/_partials/errors')
-    <form action="/store" method="post">
+    <form enctype="multipart/form-data" action="/store" method="post">
         {{csrf_field()}}
     <div class="input-group">
         <input name="title" type="text" placeholder="Name.." class="form-control" aria-label="Text input with dropdown button" >
@@ -27,7 +27,7 @@
         </div>
 
         <div class="form-group">
-            <input name="img" type="file"  class="form-control" id="upload">
+            <input name="img" type="file"  class="form-control" id="upload" >
         </div>
 
         <div class="form-group d-flex justify-content-center m-5">
