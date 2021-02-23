@@ -58,8 +58,8 @@ class BlogController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|unique:posts|max:255',
             'body' => 'required',
-            'category' => 'required',
-            'img' => 'mimes:jpeg, jpg, png, gif|required|max:10000'
+            'category' => 'required'
+//            'img' => 'mimes:jpeg, jpg, png, gif|required|max:10000'
         ]);
 
         $path = $request->file('img')->store('public/images');

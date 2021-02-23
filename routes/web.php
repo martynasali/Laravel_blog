@@ -23,6 +23,7 @@ Route::patch('/storeupdate/{post}', 'BlogController@storeUpdate');
 Route::get('/categories','BlogController@categories' );
 Route::post('/addCat','BlogController@addCat' );
 Route::get('/byCategory/{category}', 'BlogController@byCategory');
+Route::post('/post/{post}/comment','CommentController@addComment' );
 
 Auth::routes();
 
